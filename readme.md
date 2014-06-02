@@ -6,24 +6,24 @@ modify your .bash_profile (or where ever for whatever you're running ).
 
      alias awsuser='client=$1 source ~/bin/awsuser.sh $client'  
 
-then just put the aws.sh file into the locaation set above - so ~/bin/aws.sh will be the path of the script.
+then just put the awsuser.sh file into the location set above - so ~/bin/awsuser.sh will be the path of the script.
 
 To use simply type
 
-    aws profile_name
+    awsuser profile_name
 
 where profile name is the name you set for each collection of credentials - so you'll need to go in and modify each of the "accounts" in the bash script by adding your credentials. Once done you can just change profiles like above. Below is an example.
 
 for example,
 
-    aws dag
+    awsuser dag
 
 would change to the dag credentials.
 
 Huzzah! for easy AWS managment.
 You may also need to chmod the aws.sh file
 
-    chmod 700 ~/bin/aws.sh
+    chmod 700 ~/bin/awsuser.sh
 
 What this is actually doing is overwriting the config file aws cli looks for when you try to do anything that requires credentials - which is pretty much everything in the CLI. If you have a different path to your credentials, you'll just need to modify the path in the shell script.
 
