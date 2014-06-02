@@ -4,7 +4,7 @@ This is built to get around the issue of doing admin on multiple AWS accounts.
 
 modify your .bash_profile (or where ever for whatever you're running ).
 
-     alias aws='client=$1 source ~/bin/aws.sh $client'  
+     alias awsuser='client=$1 source ~/bin/awsuser.sh $client'  
 
 then just put the aws.sh file into the locaation set above - so ~/bin/aws.sh will be the path of the script.
 
