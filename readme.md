@@ -12,7 +12,7 @@ To use simply type
 
     aws profile_name
 
-where profile name is the name you set for each collection of credentials - so you'll need to go in and modify each of the details in the bash script. Once done you can just change profiles like above. Below is an example.
+where profile name is the name you set for each collection of credentials - so you'll need to go in and modify each of the "accounts" in the bash script by adding your credentials. Once done you can just change profiles like above. Below is an example.
 
 for example,
 
