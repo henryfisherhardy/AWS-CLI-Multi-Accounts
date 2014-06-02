@@ -1,5 +1,5 @@
 #!/bin/bash
-# put this in "~/bin/aws.sh"
+# put this in "~/bin/awsuser.sh"
 
 AWS_DEFAULT_REGION='ap-southeast-2' # Set default region
 case "$1" in
